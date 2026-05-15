@@ -1,0 +1,11 @@
+clocf - cloc formatter
+
+Usage:
+  cloc [options] <path> | clocf        # Process cloc output
+  clocf [options] <path>               # Run cloc automatically
+  clocf --help                         # Show this help
+
+Examples:
+  cloc . | clocf                       # Pipe cloc output
+  clocf src/                           # Auto-run cloc on src/
+  clocf --exclude-dir=vendor .         # Pass options to cloc
